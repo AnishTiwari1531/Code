@@ -1,0 +1,191 @@
+
+body{
+  background-color:antiquewhite;
+  background-image: url('https://coderythm.com/wp-content/uploads/2021/07/logo-cr-white.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: left;
+  background-attachment: fixed;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+}
+
+.nav_link {
+  display: block;
+  margin: 20px;
+  padding: 6px;
+  width: 300px;
+  font-weight: bold;
+  font-style: italic;
+}
+.link{
+  text-decoration: none;
+  color:rgb(11, 9, 124);
+  font-style: italic;
+}
+
+.nav-left {
+  margin: 0;
+  text-align: left;
+}
+
+.nav-right {
+  margin: 0;
+  text-align: right;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+.footer-links {
+  color: white;
+}
+
+.register {
+  margin-left: 30%;
+}
+
+.register h1{
+  margin-left: 12%;
+  letter-spacing: 2px;
+  color: coral;
+  text-transform: uppercase;
+}
+
+.login {
+  margin-left: 30%;
+}
+
+.login h1{
+  margin-left: 14%;
+  letter-spacing: 2px;
+  color: coral;
+  text-transform: uppercase;
+}
+
+.inputBox {
+  display: block;
+  margin: 20px;
+  padding: 6px;
+  width: 300px;
+  border: 3px solid lightskyblue;
+  transition: 1s;
+}
+.inputBox:hover{
+  background-color: rgba(176, 182, 201,0.5);
+  transition: 1s;
+}
+
+.loginBox {
+  display: block;
+  margin: 20px;
+  padding: 6px;
+  width: 300px;
+  border: 3px solid lightskyblue;
+  transition: 1s;
+}
+.loginBox:hover{
+  background-color: rgba(176, 182, 201,0.5);
+  transition: 1s;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(226, 205, 199);
+  border-color: skyblue;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition-duration: 1s;
+}
+
+.loginButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: rgb(226, 205, 199);
+  border-color: skyblue;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition-duration: 1s;
+}
+
+button:hover{
+  background-color: orange;
+  color: black;
+  box-shadow: 5px 5px 8px #888888;
+  transition-duration: 1s;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
